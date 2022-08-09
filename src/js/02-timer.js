@@ -10,6 +10,7 @@ const secondsCounter = document.querySelector('span[data-seconds]');
 startButton.disabled = true;
 let selectedDate;
 let currentDate;
+let timer = null;
 
 const options = {
   enableTime: true,
